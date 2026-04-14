@@ -263,7 +263,7 @@ Get project details with all its tasks.
 }
 ```
 
-#### `PUT /projects/:id` 🔒
+#### `PATCH /projects/:id` 🔒
 
 Update project name and/or description. **Owner only.**
 

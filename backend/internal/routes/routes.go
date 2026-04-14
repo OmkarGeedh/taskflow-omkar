@@ -25,7 +25,7 @@ func SetupRoutes(router *gin.Engine) {
 		api.GET("/projects", controllers.ListProjects())
 		api.POST("/projects", controllers.CreateProject())
 		api.GET("/projects/:id", controllers.GetProject())
-		api.PUT("/projects/:id", controllers.UpdateProject())
+		api.PATCH("/projects/:id", controllers.UpdateProject())
 		api.DELETE("/projects/:id", controllers.DeleteProject())
 
 		// Task routes
